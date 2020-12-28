@@ -13,25 +13,9 @@
       content="Web site created using create-react-wptheme"
     />
     <link rel="apple-touch-icon" href="<?php echo $TEMPLATE_PATH; ?>/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="<?php echo $TEMPLATE_PATH; ?>/manifest.json" />
-    <!--
-        If you're reading this from "view source" in your browser, it might not make sense as
-        these tokens have already been evaluated and replaced, even in this remark blurb.
-
-        Notice the use of "php echo $TEMPLATE_PATH;" and %PUBLIC_URL% in the tags above.
-        Both will be replaced with the URL of the `public` folder during the build (%PUBLIC_URL%) or
-        at render time (php echo $TEMPLATE_PATH;)
-        Only files inside the `public` folder can be referenced like this.
-
-        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-        work correctly both with client-side routing and a non-root public URL.
-        Learn how to configure a non-root public URL by running `npm run wpbuild`.
-    -->
-    <title>React WordPress Theme</title>
+    <link rel="stylesheet" href="<?php echo $TEMPLATE_PATH; ?>/vendor/bootstrap.min.css" />
+    <title>Sushant Paudel - Just a random guy who likes to code</title>
 </head>
     <body>
     <noscript>

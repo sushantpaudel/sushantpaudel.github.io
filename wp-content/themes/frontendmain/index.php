@@ -20,26 +20,10 @@
       content="Web site created using create-react-wptheme"
     />
     <link rel="apple-touch-icon" href="<?php echo $TEMPLATE_PATH; ?>/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="<?php echo $TEMPLATE_PATH; ?>/manifest.json" />
-    <!--
-        If you're reading this from "view source" in your browser, it might not make sense as
-        these tokens have already been evaluated and replaced, even in this remark blurb.
-
-        Notice the use of "php echo $TEMPLATE_PATH;" and /wp-content/themes/frontendmain in the tags above.
-        Both will be replaced with the URL of the `public` folder during the build (/wp-content/themes/frontendmain) or
-        at render time (php echo $TEMPLATE_PATH;)
-        Only files inside the `public` folder can be referenced like this.
-
-        Unlike "/favicon.ico" or "favicon.ico", "/wp-content/themes/frontendmain/favicon.ico" will
-        work correctly both with client-side routing and a non-root public URL.
-        Learn how to configure a non-root public URL by running `npm run wpbuild`.
-    -->
-    <title>React WordPress Theme</title>
-<link href="/wp-content/themes/frontendmain/static/css/main.chunk.css?ae07d70d6066a72f0256" rel="stylesheet"></head>
+    <link rel="stylesheet" href="<?php echo $TEMPLATE_PATH; ?>/vendor/bootstrap.min.css" />
+    <title>Sushant Paudel - Just a random guy who likes to code</title>
+</head>
     <body>
     <noscript>
         You need to enable JavaScript to run this app.
@@ -55,5 +39,5 @@
         To begin the development, run `npm run wpstart` or `yarn wpstart`.
         To create a production bundle, use `npm run wpbuild` or `yarn wpbuild`.
     -->
-    <script src="/wp-content/themes/frontendmain/static/js/bundle.js?ae07d70d6066a72f0256"></script><script src="/wp-content/themes/frontendmain/static/js/0.chunk.js?ae07d70d6066a72f0256"></script><script src="/wp-content/themes/frontendmain/static/js/main.chunk.js?ae07d70d6066a72f0256"></script></body>
+    <script src="/wp-content/themes/frontendmain/static/js/bundle.js?ca576c053394e63e0d8e"></script><script src="/wp-content/themes/frontendmain/static/js/0.chunk.js?ca576c053394e63e0d8e"></script><script src="/wp-content/themes/frontendmain/static/js/main.chunk.js?ca576c053394e63e0d8e"></script></body>
 </html>
